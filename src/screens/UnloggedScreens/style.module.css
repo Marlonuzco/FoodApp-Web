@@ -1,0 +1,87 @@
+.div1 {
+  background-image: url("/home/marlonjoseuzca/Documentos/Mis Proyectos/Webs/FoodApp_Web/src/assets/images/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.div2 {
+  height: 40%;
+  width: 40%;
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.div3 {
+  margin: 5%;
+  height: 40%;
+  width: 40%;
+}
+.title2 {
+  color: white;
+  text-align: right;
+}
+.text1 {
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  margin-top: 5%;
+}
+.div4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.btn1 {
+  margin-right: 5%;
+  font-size: 20;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn2 {
+  font-size: 20;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.iconStyle {
+  margin-left: 7px;
+}
+.categoriesSection {
+  background: #c02425;
+  background: -webkit-linear-gradient(to left, #f0cb35, #c02425);
+  background: linear-gradient(to left, #f0cb35, #c02425);
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title3 {
+  margin: 2%;
+  color: white;
+  font-size: 30px;
+}
+.categoriesSection2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 35px;
+}
+.btn3 {
+  background-color: black;
+}
+.title4 {
+  color: rgba(255, 255, 255, 0.651);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

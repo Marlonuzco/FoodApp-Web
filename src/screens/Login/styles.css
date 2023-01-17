@@ -1,0 +1,52 @@
+#div1 {
+  background: #c02425; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f0cb35,
+    #c02425
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f0cb35,
+    #c02425
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+#title {
+  color: white;
+}
+#div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5%;
+}
+#div3 {
+  background-color: rgba(49, 49, 49, 0.8);
+  height: 80%;
+  width: 70%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#button1 {
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+#title2 {
+  color: white;
+}

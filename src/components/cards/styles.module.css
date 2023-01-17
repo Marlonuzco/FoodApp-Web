@@ -1,0 +1,33 @@
+.div1 {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 10%;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.507);
+  transition: all 0.2s linear;
+}
+.cardImg {
+  height: 85px;
+  width: 80%;
+}
+.cardImg:hover{
+  transform: scale(1.1);
+}
+.cardTitle {
+  color: white;
+  font-size: 20px;
+  margin-top: 1%;
+}
